@@ -1,7 +1,7 @@
-import "./components/category-item//categories.scss";
-import Directory from "./components/directory/directory.component";
+import Directory from "../directory/directory.component";
+import "../category-item/categories.scss";
 
-const App = () => {
+const Home = () => {
   const categories = [
     {
       id: 1,
@@ -32,4 +32,4 @@ const App = () => {
   return <Directory categories={categories} />;
 };
 
-export default App;
+export default Home;
